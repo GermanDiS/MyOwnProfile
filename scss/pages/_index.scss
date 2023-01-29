@@ -1,0 +1,29 @@
+.main-ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: nth($size , 4);
+    margin: nth($size , 3);
+    text-decoration: none;
+    background-color: $hd-bgcolor;
+    border-radius: nth($size , 6);
+    margin-top: nth($size , 9);
+    font-weight: bolder;
+}
+
+.main-hr{
+    margin: auto;
+    margin-top: nth($size , 9);
+    margin-bottom: nth($size , 7);
+    width: 80%;
+    height: nth($size , 2);
+    background-color: $bd-txtcolor;
+    text-align: center;
+}
+
+.content-wrap1 {
+    padding-bottom: 2.5rem;    /* Footer height */
+    background-color: $bd-bgcolor;
+    color: $bd-txtcolor;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+  }

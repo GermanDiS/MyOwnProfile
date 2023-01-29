@@ -1,0 +1,15 @@
+.project-main{
+    text-align: center;
+}
+
+.project-block{
+    display: inline-block;
+    margin: nth($size , 5);
+    padding: nth($size , 8);
+    
+}
+
+.project-block i{
+    font-size: 5em;
+    color: $bd-txtcolor;
+}

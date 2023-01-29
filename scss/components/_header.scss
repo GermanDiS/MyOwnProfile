@@ -1,0 +1,12 @@
+.navbar-custom {
+    background-color: $hd-bgcolor;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: $bd-txtcolor;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: $ft-txtcolor;
+}

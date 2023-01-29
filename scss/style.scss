@@ -1,0 +1,22 @@
+// Base
+@import './base/variables';
+@import './base/lists';
+
+// Components
+
+@import './components/header';
+@import './components/body';
+@import './components/footer';
+
+// Pages
+*{
+    font-family: 'Jost', sans-serif;
+    margin: 0;
+}
+
+@import './pages/index';
+@import './pages/work';
+@import './pages/studies';
+@import './pages/projects';
+@import './pages/aboutme';
+

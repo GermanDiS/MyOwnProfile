@@ -1,0 +1,30 @@
+.work{
+    display: block;
+    margin-bottom: nth($size , 7);
+    margin-top: nth($size , 5);
+}
+
+.work h4{
+    margin-bottom: nth($size , 6);
+    margin-top: nth($size , 3);
+}
+
+.img-work{
+    float: left;
+    margin: nth($size , 1)  nth($size , 8) nth($size , 3) nth($size , 5);
+    width: nth($size , 9);
+    border-radius: 100%;
+}
+
+.work-hr{
+    margin: auto;
+    width: 80%;
+    height: nth($size , 2);
+    background-color: $ft-bgcolor;
+    text-align: center;
+}
+
+.conteiner{
+    margin-left: nth($size , 5);
+    margin-top: nth($size , 7);
+}

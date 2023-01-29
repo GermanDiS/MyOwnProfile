@@ -1,0 +1,15 @@
+.p-about{
+    display: inline-block;
+
+}
+
+.img-about{
+    float: center;
+    margin: nth($size , 1) nth($size , 1)  nth($size , 6)  nth($size , 7) ;
+    width: nth($size , 10);
+}
+
+.about-block{
+    margin-bottom: nth($size , 7);
+    
+}

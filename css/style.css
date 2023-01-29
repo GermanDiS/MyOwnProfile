@@ -1,160 +1,149 @@
-*{
-    font-family: 'Jost', sans-serif;
-    margin: 0;
-}
-
-h1{
-    margin-top: 20px;
-}
-
-.study-block h4{
-    font-weight: bolder;
-}
-
-.conteiner h2{
-    font-style: italic;
-}
-.conteiner{
-    margin-left: 10px;
-    margin-top: 20px;
-}
-
-
-.about-block{
-    margin-bottom: 20px;
-    
-}
-.main-ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 8px;
-    margin: 5px;
-    text-decoration: none;
-    background-color: #63B4D1;
-    border-radius: 15px;
-    margin-top: 50px;
-    font-weight: bolder;
-}
-
-
 .navbar-custom {
-    background-color: #63B4D1;
+  background-color: #63B4D1;
 }
-/* change the brand and text color */
-/* change the link color */
+
 .navbar-custom .navbar-nav .nav-link {
-    color: #344966;;
+  color: #344966;
 }
-/* change the color of active or hovered links */
+
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: #ffffff;
+  color: #FFFFFF;
 }
 
-body{
-    background-color: #D6D4D6;
-    color: #344966;
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    overflow-y: scroll;
-    overflow-x: hidden;
-
+body {
+  background-color: #D6D4D6;
+  color: #344966;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+body h1 {
+  margin-top: 20px;
+}
+body h2 {
+  font-style: italic;
 }
 
-  .content-wrap1 {
-    padding-bottom: 2.5rem;    /* Footer height */
-    background-color: #D6D4D6;
-    color: #344966;
-    font-family: 'Jost', sans-serif;
-    text-align: center;
-  }
-
-footer{
-    background-color: #344966;
-    width: 100%;
-    display: flex;
-    margin-top: auto;
-    justify-content: space-between;
+footer {
+  background-color: #344966;
+  width: 100%;
+  display: flex;
+  margin-top: auto;
+  justify-content: space-between;
+  color: #FFFFFF;
+}
+footer nav a {
+  padding: 8px;
+  margin: 5px;
+}
+footer nav a i {
+  color: #FFFFFF;
 }
 
-.main-hr{
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    width: 80%;
-    height: 2px;
-    background-color: #344966;
-    text-align: center;
+* {
+  font-family: "Jost", sans-serif;
+  margin: 0;
 }
 
-.project-main{
-    text-align: center;
+.main-ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 8px;
+  margin: 5px;
+  text-decoration: none;
+  background-color: #63B4D1;
+  border-radius: 15px;
+  margin-top: 50px;
+  font-weight: bolder;
 }
 
-.project-block{
-    display: inline-block;
-    margin: 10px;
-    padding: 25px;
-    
+.main-hr {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 80%;
+  height: 2px;
+  background-color: #344966;
+  text-align: center;
 }
 
-.project-block i{
-    font-size: 5em;
-    color: #344966;
+.content-wrap1 {
+  padding-bottom: 2.5rem; /* Footer height */
+  background-color: #D6D4D6;
+  color: #344966;
+  font-family: "Jost", sans-serif;
+  text-align: center;
 }
 
-.work-hr{
-    margin: auto;
-    width: 80%;
-    height: 2px;
-    background-color: #344966;
-    text-align: center;
+.work {
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
-footer nav a{
-        padding: 8px;
-        margin: 5px;
+.work h4 {
+  margin-bottom: 15px;
+  margin-top: 5px;
 }
 
-.p-about{
-    display: inline-block;
-
+.img-work {
+  float: left;
+  margin: 0px 25px 5px 10px;
+  width: 50px;
+  border-radius: 100%;
 }
 
-.study-block{
-    margin: 20px;
+.work-hr {
+  margin: auto;
+  width: 80%;
+  height: 2px;
+  background-color: #344966;
+  text-align: center;
 }
 
-.img-about{
-    float: center;
-    margin: 0 0 15px 20px;
-    width: 400px;
+.conteiner {
+  margin-left: 10px;
+  margin-top: 20px;
 }
 
-.work{
-    display: block;
-    margin-bottom: 20px;
-    margin-top: 10px;
+.study-block {
+  margin: 20px;
 }
 
-.work h4{
-    margin-bottom: 15px;
-    margin-top: 5px;
+.study-block h4 {
+  font-weight: bolder;
 }
 
-.img-work{
-    float: left;
-    margin: 0 30px 5px 10px;
-    width: 50px;
-    border-radius: 100%;
+.project-main {
+  text-align: center;
 }
 
-.contact{
-    color: azure;
+.project-block {
+  display: inline-block;
+  margin: 10px;
+  padding: 25px;
 }
 
-.contact i{
-    color: azure;
+.project-block i {
+  font-size: 5em;
+  color: #344966;
 }
 
+.p-about {
+  display: inline-block;
+}
+
+.img-about {
+  float: center;
+  margin: 0px 0px 15px 20px;
+  width: 400px;
+}
+
+.about-block {
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
