@@ -1,11 +1,11 @@
 footer{
     background-color: $ft-bgcolor;
-    width: 100%;
-    display: flex;
     margin-top: auto;
-    justify-content: space-between;
+    align-items: center;
     color: $ft-txtcolor;
     nav{
+        padding-top: nth($size, 6);
+        text-align: right;
         a{
             padding: nth($size, 4);
             margin: nth($size, 3);

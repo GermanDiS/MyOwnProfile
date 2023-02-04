@@ -29,11 +29,13 @@ body h2 {
 
 footer {
   background-color: #344966;
-  width: 100%;
-  display: flex;
   margin-top: auto;
-  justify-content: space-between;
+  align-items: center;
   color: #FFFFFF;
+}
+footer nav {
+  padding-top: 15px;
+  text-align: right;
 }
 footer nav a {
   padding: 8px;
